@@ -1,0 +1,26 @@
+.mediaImages-container{
+    padding-top: var(--marginTopSection);
+    display: flex;
+    flex-direction: column;
+    gap: var(--marginTopComponent);
+}
+
+.mediaImages-scrollContainer{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.mediaImages-scrollContainer::-webkit-scrollbar{
+    height: 5px;
+}
+.mediaImages-scrollContainer::-webkit-scrollbar-thumb{
+    background-color: var(--moradoClaro);
+}
+
+.mediaImages-img{
+    margin-right: var(--marginLeft);
+    border-radius: 5px;
+    box-shadow: 5px -5px 10px 0px var(--sombraOscura);
+    object-fit: cover;
+    height: 200px;
+}

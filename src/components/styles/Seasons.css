@@ -1,0 +1,45 @@
+.seasons-container{
+    padding-top: var(--marginTopComponent);
+    display: flex;
+    flex-direction: column;
+}
+
+.seasons-select{
+    margin-bottom: var(--marginTopComponent);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--moradoClaro);
+    color: var(--blanco);
+    font-family: var(--fontTitle);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    outline: transparent;
+    text-align: center;
+}
+
+
+.episodes-scrollContainer{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 325px;
+}
+
+.episode-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: var(--marginLeft);
+}
+
+.episodeImg{
+    margin-bottom: var(--marginTopComponent);
+    height: 175px;
+    width: 300px;
+    object-fit: cover;
+    box-shadow: 5px -5px 10px 0px var(--sombraOscura);
+    border-radius: 5px;
+
+}

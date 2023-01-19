@@ -1,0 +1,37 @@
+.similarMedia-container{
+    padding-top: var(--marginTopSection);
+    display: flex;
+    flex-direction: column;
+    gap: var(--marginTopComponent);
+}
+
+.similarMedia-scrollContainer{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-bottom: var(--marginTopSection);
+}
+
+.similarMedia-scrollContainer .movie-container{
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 165px;
+    max-width: 165px;
+    margin-right: var(--marginLeft);
+    border-radius: 5px;
+    box-shadow: 5px -5px 10px 0px var(--sombraOscura);
+    overflow-y: hidden;
+    object-fit: cover;
+}
+
+.similarMedia-scrollContainer .serie-container{
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 165px;
+    max-width: 165px;
+    margin-right: var(--marginLeft);
+    border-radius: 5px;
+    box-shadow: 5px -5px 10px 0px var(--sombraOscura);
+    overflow-y: hidden;
+    object-fit: cover;
+}

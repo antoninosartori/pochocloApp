@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'JejuGothic-Regular';
+  src: url(./assets/font/JejuGothic-Regular.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+:root{
+  /*colores*/
+  --moradoClaro: #442b65;
+  --moradoMedio: #1B1029;
+  --moradoOscuro: #120C1A;
+  --blanco: #E4E4E4;
+  --negro:#000;
+  /*fuentes*/
+      --fontFamily: 'JejuGothic-Regular';
+      --fontLogo: 'Pacifico', cursive;;
+  /* tamaños de fuentes*/
+  --sizeTitle: 24px;
+  --sizeSubt: 20px;
+  --sizeNavLink: 16px;
+  /*medidas*/
+  --marginTopSection: 50px;
+  --marginTopComponent: 20px;
+  --marginLeft: 20px
+}
+
+body{
+  font-family: var(--fontFamily);
+  background-color: var(--moradoOscuro);
+}
+
+.genericTitle{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-generic{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--marginLeft);
+  width: 100%;
+  height: 100%;
+  color: var(--blanco);
+}
+
+.backArrow-generic{
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.movieView-container .backArrow-generic{
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  height: 50px;
+  padding: 6px 10px;
+  border-radius: 50%;
+  background-color: rgba(34, 34, 34, 0.835);
+}
+
+.serieView-container .backArrow-generic{
+  position: fixed;
+  top: 30px;
+  left: 20px;
+  height: 50px;
+  padding: 6px 10px;
+  border-radius: 50%;
+  background-color: rgba(34, 34, 34, 0.835);
+}
+
+.categoriesList-container{
+  margin-top: var(--marginTopComponent);
+}
+
+#id28::before{
+  content: '💣';
+  font-size: 40px;
+}
+#id10759::before{
+  content: '💣';
+  font-size: 40px;
+}
+#id12::before{
+  content:'🗻';
+  font-size: 40px;
+}
+#id16::before{
+  content:'🐟';
+  font-size: 40px;
+}
+#id35::before{
+  content:'😄';
+  font-size: 40px;
+}
+#id80::before{
+  content:'🔫';
+  font-size: 40px;
+}
+#id99::before{
+  content:'📹';
+  font-size: 40px;
+}
+#id18::before{
+  content:'😔';
+  font-size: 40px;
+}
+#id10751::before{
+  content:'👨‍👩‍👧';
+  font-size: 40px;
+}
+#id14::before{
+  content:'🐉';
+  font-size: 40px;
+}
+#id36::before{/*history*/
+  content:'💂🏻‍♀️';
+  font-size: 40px;
+}
+#id27::before{/*horror*/
+  content:'👻';
+  font-size: 40px;
+}
+#id10402::before{
+  content:'🎸';
+  font-size: 40px;
+}
+#id9648::before{/*mystery*/
+  content:'🔪';
+  font-size: 40px;
+}
+#id10749::before{/*romance*/
+  content:'💐';
+  font-size: 40px;
+}
+#id878::before{/*science fiction*/
+  content:'🦸🏻‍♂️';
+  font-size: 40px;
+}
+#id10770::before{/*tv movie*/
+  content:'📺';
+  font-size: 40px;
+}
+#id53::before{/*thriller*/
+  content:'🕵🏾';
+  font-size: 40px;
+}
+#id10752::before{/*war*/
+  content:'🚁';
+  font-size: 40px;
+}
+#id37::before{/*western*/
+  content:'🤠';
+  font-size: 40px;
+}
+#id10762::before{
+  content: '🧒🏾';
+  font-size: 40px;
+}
+#id10763::before{
+  content: '📰';
+  font-size: 40px;
+}
+#id10764::before{
+  content: '💭';
+  font-size: 40px;
+}
+#id10765::before{
+  content: '🦸🏻‍♂️';
+  font-size: 40px;
+}
+#id10766::before{
+  content: '🧼';
+  font-size: 40px;
+}
+#id10767::before{
+  content: '🗣️';
+  font-size: 40px;
+}
+#id10768::before{/*war*/
+  content:'🚁';
+  font-size: 40px;
+}
+
+.inactive{
+  display: none;
+}
+
+

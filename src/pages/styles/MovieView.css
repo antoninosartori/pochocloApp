@@ -1,0 +1,62 @@
+:root{
+    /*colores*/
+    --moradoClaro: #442b65;
+    --moradoMedio: #1B1029;
+    --moradoOscuro: #120C1A;
+    --blanco: #E4E4E4;
+    --negro:#000;
+    /*fuentes*/
+        --fontFamily: 'JejuGothic-Regular';
+        --fontLogo: 'Pacifico', cursive;;
+    /* tamaños de fuentes*/
+    --sizeTitle: 24px;
+    --sizeSubt: 20px;
+    --sizeNavLink: 16px;
+    /*medidas*/
+    --marginTopSection: 50px;
+    --marginTopComponent: 20px;
+    --marginLeft: 20px
+}
+
+.movieDescription-container{
+    color: var(--blanco);
+    padding: 0 var(--marginLeft);
+}
+
+.movieDescription-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: var(--marginTopComponent);
+}
+
+.movieDescription-header h2{
+    font-size: var(--sizeTitle);
+    text-transform: uppercase;
+}
+
+.movieScore{
+    font-size: var(--sizeNavLink);
+}
+.movieScore::before{
+    content:'★';
+    color: rgb(238, 249, 41);
+}
+
+.movieDescription-paragraph{
+    margin-top: var(--marginTopComponent);
+    font-size: var(--sizeSubt);
+    letter-spacing: 1px;
+}
+
+.categoriesMedia-container{
+    padding: var(--marginTopComponent) 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.categoriesMedia-container .categoryItem{
+    padding: 0px;
+    margin-right: var(--marginLeft);
+}
+

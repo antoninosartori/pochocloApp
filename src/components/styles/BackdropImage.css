@@ -1,0 +1,20 @@
+.backdropImage-container{
+    position: relative;
+    height: 90vh;
+}
+
+.backdropImage{
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.playIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(34, 34, 34, 0.835); */
+    height: 80px;
+    padding: 3px;
+}

@@ -1,0 +1,4 @@
+.categoryActive-scrollContainer{
+    padding-left: var(--marginLeft);
+    color: var(--blanco);
+}

@@ -1,0 +1,41 @@
+.collections-container{
+
+    padding: var(--marginTopSection) 0 var(--marginTopSection) var(--marginLeft);
+}
+
+.collections-title{
+    color: var(--blanco);
+}
+
+.collections-scrollContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--marginTopComponent);
+    overflow-x: scroll;
+}
+
+
+.collections-scrollContainer::-webkit-scrollbar{
+    height: 5px;
+}
+.collections-scrollContainer::-webkit-scrollbar-thumb{
+    background-color: var(--moradoClaro);
+    border-radius: 5px;
+}
+
+.collection-container{
+    min-height: 225px;
+    max-height: 200px;
+    min-width: 150px;
+    max-width: 150px;
+    margin-right: var(--marginLeft);
+    border-radius: 5px;
+    box-shadow: 5px -5px 10px 0px var(--sombraOscura);
+    overflow-y: hidden;
+}
+
+.collectionImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

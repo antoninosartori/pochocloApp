@@ -1,0 +1,16 @@
+.movie-container{
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 225px;
+    max-width: 225px;
+    margin-right: var(--marginLeft);
+    border-radius: 5px;
+    box-shadow: 5px -5px 10px 0px var(--sombraOscura);
+    overflow-y: hidden;
+}
+
+.movieImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

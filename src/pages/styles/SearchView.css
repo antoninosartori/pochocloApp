@@ -1,0 +1,25 @@
+.searchResults-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: var(--marginTopSection) 0 var(--marginTopSection) var(--marginLeft);
+    
+}
+
+.searchResults-container .movie-container{
+    margin-right: var(--marginLeft);
+    margin-bottom: var(--marginTopComponent);
+    overflow-y: hidden;
+}
+
+.searchResults-container .serie-container{
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 225px;
+    max-width: 225px;
+    margin-right: var(--marginLeft);
+    margin-bottom: var(--marginTopComponent);
+    border-radius: 5px;
+    box-shadow: 5px -5px 10px 0px var(--sombraOscura);
+    overflow-y: hidden;
+}

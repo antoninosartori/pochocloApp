@@ -1,0 +1,16 @@
+.serie-container{
+    min-height: 350px;
+    max-height: 350px;
+    min-width: 275px;
+    max-width: 275px;
+    margin-right: var(--marginLeft);
+    border-radius: 5px;
+    box-shadow: 5px -5px 10px 0px var(--sombraOscura);
+    overflow-y: hidden;
+}
+
+.serieImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

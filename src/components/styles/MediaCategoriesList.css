@@ -1,0 +1,26 @@
+.categoriesList-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--marginTopComponent);
+    padding-left: var(--marginLeft);
+    margin-bottom: var(--marginTopSection);
+    overflow-x: scroll;
+}
+.categoryItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-weight: 300;
+
+    /* background-color: var(--moradoClaro); */
+    padding: 20px;
+}
+
+.btnCategorie-active{
+    background-color: var(--moradoClaro);
+}

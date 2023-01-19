@@ -1,0 +1,56 @@
+:root{
+    /*colores*/
+    --moradoClaro: #442b65;
+    --moradoMedio: #1B1029;
+    --moradoOscuro: #120C1A;
+    --blanco: #E4E4E4;
+    --sombraOscura:#0a0313;
+    /*fuentes*/
+        --fontTitle: 'JejuGothic-Regular';
+    /* tamaños de fuentes*/
+    --sizeTitle: 24px;
+    --sizeSubt: 20px;
+    --sizeNavLink: 16px;
+    /*medidas*/
+    --marginTopSection: 50px;
+    --marginTopComponent: 20px;
+    --marginLeft: 20px;
+    --headerSize:80px ;
+}
+
+.trending-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: var(--marginLeft);
+    color: var(--blanco);
+}
+
+.title{
+    font-size: var(--sizeTitle);
+}
+
+.btn-trending{
+    border: none;
+    background-color: var(--blanco);
+    color: var(--moradoOscuro);
+    font-size: var(--sizeTitle);
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.trending-scrollContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--marginTopComponent);
+    overflow-x: scroll;
+}
+
+
+.trending-scrollContainer::-webkit-scrollbar{
+    height: 5px;
+}
+.trending-scrollContainer::-webkit-scrollbar-thumb{
+    background-color: var(--moradoClaro);
+    border-radius: 5px;
+}

@@ -1,0 +1,65 @@
+:root{
+    /*colores*/
+    --moradoClaro: #442b65;
+    --moradoMedio: #1B1029;
+    --moradoOscuro: #120C1A;
+    --blanco: #E4E4E4;
+    --sombraOscura:#0a0313;
+    /*fuentes*/
+        --fontTitle: 'JejuGothic-Regular';
+    /* tamaños de fuentes*/
+    --sizeTitle: 24px;
+    --sizeSubt: 20px;
+    --sizeNavLink: 16px;
+    /*medidas*/
+    --marginTopSection: 50px;
+    --marginTopComponent: 20px;
+    --marginLeft: 20px;
+    --headerSize:80px ;
+}
+
+/* main */
+main{
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: var(--marginTopSection);
+}
+
+/* trending container */
+.trending-container{
+    margin-top: var(--marginTopSection);
+    padding-left: var(--marginLeft);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
